@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventures</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="Wanderlust Adventures Logo" class="logo-img">
+                <span>Adventures</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle">Light Mode</button>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-overlay">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore the world's most beautiful places with us.</p>
+            <a href="#destinations" class="cta">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <center>
+
+            <h2>About Us</h2>
+        </center>
+        <p>Adventure encompasses thrilling experiences that push boundaries and evoke a sense of excitement and exploration. It
+        involves embarking on daring activities in diverse environments, such as mountain climbing, hiking through rugged
+        terrain, exploring remote regions, or engaging in extreme sports like skydiving or white-water rafting. Adventures often
+        entail stepping outside one's comfort zone, embracing uncertainty, and gaining new perspectives while fostering personal
+        growth and unforgettable memories.</p>
+    </section>
+
+    <section id="destinations" class="destinations">
+    <center>
+        
+        <h2>Our Destinations</h2>
+    </center>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="images/paris.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The City of Light awaits you with its stunning architecture, world-class museums, and romantic
+                    ambiance.</p>
+            </div>
+            <div class="card">
+                <img src="images/bali.jpg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Experience the serene beauty of Bali, with its pristine beaches, lush forests, and vibrant culture.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/newyork.jpg" alt="New York">
+                <h3>New York</h3>
+                <p>The Big Apple offers endless excitement, from iconic landmarks to diverse neighborhoods.</p>
+            </div>
+        </div>
+    </section>
+<center>
+
+    <section id="contact" class="contact">
+        
+        
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <br>
+            <input type="email" placeholder="Your Email" required>
+            <br>
+            <textarea placeholder="Your Message" required></textarea>
+            <br>
+        </form>
+        <button type="submit">Send Message</button>
+    </section>
+</center>
+
+    <footer class="footer">
+        <p>&copy; 2024 Wanderlust Adventures. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
